@@ -1,7 +1,7 @@
 import streamlit as st
 import spacy
 
-!python -m spacy download pt_core_news_md
+python -m spacy download pt_core_news_md
 
 # Carrega o modelo spaCy para português
 nlp = spacy.load("pt_core_news_sm")
