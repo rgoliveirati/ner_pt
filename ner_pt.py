@@ -1,10 +1,9 @@
 import streamlit as st
 import spacy
-import pt_core_news_sm
-
-
-# Carrega o modelo spaCy para português
+import spacy
 nlp = spacy.load("pt_core_news_sm")
+import pt_core_news_sm
+nlp = pt_core_news_sm.load()
 
 # Título da aplicação
 st.title("Extrator de Entidades Nomeadas em Português")
