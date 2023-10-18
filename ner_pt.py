@@ -4,7 +4,7 @@ import pt_core_news_sm
 
 
 # Carrega o modelo spaCy para português
-nlp = pt_core_news_sm.load()
+nlp = spacy.load("pt_core_news_sm")
 
 # Título da aplicação
 st.title("Extrator de Entidades Nomeadas em Português")
